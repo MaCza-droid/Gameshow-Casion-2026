@@ -1,0 +1,71 @@
+\documentclass[11pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{siunitx}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tabularx}
+\geometry{
+    a4paper,
+    left=25mm,
+    top=35mm,
+    right=25mm,
+    bottom=25mm
+}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,       % Links farbig markieren statt roter Rahmen
+    linkcolor=black,       % Farbe der Links im Text und im Inhaltsverzeichnis
+    filecolor=magenta,     
+    urlcolor=cyan,
+    bookmarksnumbered=true % Kapitelnummern in der PDF-Lesezeichenleiste anzeigen
+}
+\usepackage{background}
+\backgroundsetup{
+  scale=1,          % Scale of the image
+  angle=0,          % Rotation angle
+  opacity=1,      % Transparency (0 = fully clear, 1 = fully solid)
+  contents={
+    \includegraphics[width=\paperwidth, height=\paperheight, keepaspectratio]{media/image1.jpeg} %Don't forget the image
+  }
+}
+\pagestyle{empty}
+
+\title{Nachtreffen}
+\subtitle{Freitag 12.06.2026}
+\author{}
+\date{}
+\begin{document}
+
+\maketitle \thispagestyle{empty}
+\section{Material}
+\begin{itemize}
+  \item Tisch oben für Fundsachen
+  \item Wassereis (Bereits im Eisfach)
+  \item Plakate für Mitbestimmungsteil (Bereits geschrieben)
+  \item Eddings
+\end{itemize}
+\section{Ablauf}
+
+\begin{tabularx}{\textwidth}{|c|X|X|c|}\hline
+\textbf{Zeit}&\textbf{Programm}&\textbf{Material}&\textbf{Dauer}\\\hline
+    16:30 Uhr&Treffen Leiter, durchsprechen Programm, Material vorbereiten&Alles Was vorbereitet werden kann und muss&\qty{0}{\minute}\\\hline
+    17:00 Uhr&Ankunft Kinder, kleine Materiallose Spiele (Fange, Verstecken, etc.)&none&\qty{15}{\minute}\\\hline
+    17:15 Uhr&Offizielle Begrüßung&none&\qty{5}{\minute}\\\hline
+    --:-- Uhr&&&\qty{}{\minute}\\\hline
+    --:-- Uhr&Pause mit Wassereis als Erfrischung\newline\textit{(mit Puffer für Verzögerungen)}&Wassereis&\qty{15}{\minute}\\\hline
+    --:-- Uhr&Mitbestimmungsteil (Motto, Essen, Programm)&Plakate Mitbestimmungsteil, Eddings&\qty{10}{\minute}\\\hline
+    19:00 Uhr&Ende mit Fundsachen auf Kirchplatz&Fundsachen, \textit{(Flyer (falls noch nicht direkt nach Zela ausgegeben))}&open\\\hline
+\end{tabularx}
+
+
+
+
+\end{document}
